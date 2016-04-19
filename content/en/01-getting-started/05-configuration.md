@@ -1,6 +1,6 @@
 # Configuration
 
-Some technical aspects of VersionPress can be configured via a `vpconfig.neon` file or an associated WP-CLI command. This page discusses the configuration system and lists all the supported options.
+Some technical aspects of VersionPress can be configured via a `vpconfig.yml` file or an associated WP-CLI command. This page discusses the configuration system and lists all the supported options.
 
 <div class="important">
   <strong>Note</strong>
@@ -12,15 +12,15 @@ Some technical aspects of VersionPress can be configured via a `vpconfig.neon` f
 
 There are two files created during the installation in the `wp-content/plugins/versionpress` directory:
 
- - `vpconfig.neon`
- - `vpconfig.defaults.neon`
+ - `vpconfig.yml`
+ - `vpconfig.defaults.yml`
 
-VersionPress first looks for a value in the `vpconfig.neon` file and falls back to the `vpconfig.defaults.neon` file if it doesn't find one. The `vpconfig.neon` file is meant to be edited, the `vpconfig.defaults.neon` file is meant to be read-only.
+VersionPress first looks for a value in the `vpconfig.yml` file and falls back to the `vpconfig.defaults.yml` file if it doesn't find one. The `vpconfig.yml` file is meant to be edited, the `vpconfig.defaults.yml` file is meant to be read-only.
 
-The files are in the [NEON file format](http://ne-on.org/) which is pretty simple and similar to YAML. You can manually copy and paste lines from the `vpconfig.defaults.neon` file to the `vpconfig.neon` file to change VersionPress configuration.
+The files are in YAML format. You can manually copy and paste lines from the `vpconfig.defaults.yml` file to the `vpconfig.yml` file to change VersionPress configuration.
 
 <div class="note">
-  <p>As mentioned above, always modify the `vpconfig.neon` file, not the defaults file.</p>
+  <p>As mentioned above, always modify the `vpconfig.yml` file, not the defaults file.</p>
 </div>
 
 
