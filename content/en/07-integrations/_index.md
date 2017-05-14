@@ -4,9 +4,9 @@ WordPress is a rich ecosystem and its plugins & themes can do anything and every
 
 This page provides general overview and there are three sub-pages discussing specific: 
 
- * [plugins](./integrations/plugins)
- * [themes](./integrations/themes)
- * and [hosts](./integrations/hosts)
+ * [plugins](./plugins)
+ * [themes](./themes)
+ * and [hosts](./hosts)
 
 
 ## General notes on external plugins & themes
@@ -22,8 +22,8 @@ However, there are also plugins that are either not quite well coded or so compl
 
 Please refer to these to pages for the specifics: 
 
- * [Plugins](./integrations/plugins)
- * [Themes](./integrations/themes)
+ * [Plugins](./plugins)
+ * [Themes](./themes)
 
 
 ### Note for plugin developers
